@@ -312,10 +312,38 @@
    "frame_name": "%02d.webp",
    "owner_clip": null
   },
-  "soft-drink": null,
-  "water": null,
-  "masala-chai": null,
-  "filter-coffee": null,
+  "soft-drink": {
+   "poster": "dish/soft-drink/soft-drink-poster.webp",
+   "mp4": "dish/soft-drink/soft-drink-loop.mp4",
+   "frames_zip": "dish/soft-drink/soft-drink-frames.zip",
+   "frames": 48,
+   "frame_name": "%02d.webp",
+   "owner_clip": null
+  },
+  "water": {
+   "poster": "dish/water/water-poster.webp",
+   "mp4": "dish/water/water-loop.mp4",
+   "frames_zip": "dish/water/water-frames.zip",
+   "frames": 48,
+   "frame_name": "%02d.webp",
+   "owner_clip": null
+  },
+  "masala-chai": {
+   "poster": "dish/masala-chai/masala-chai-poster.webp",
+   "mp4": "dish/masala-chai/masala-chai-loop.mp4",
+   "frames_zip": "dish/masala-chai/masala-chai-frames.zip",
+   "frames": 48,
+   "frame_name": "%02d.webp",
+   "owner_clip": null
+  },
+  "filter-coffee": {
+   "poster": "dish/filter-coffee/filter-coffee-poster.webp",
+   "mp4": "dish/filter-coffee/filter-coffee-loop.mp4",
+   "frames_zip": "dish/filter-coffee/filter-coffee-frames.zip",
+   "frames": 48,
+   "frame_name": "%02d.webp",
+   "owner_clip": null
+  },
   "glacier": {
    "reuse": "signature-stone",
    "owner_clip": null
