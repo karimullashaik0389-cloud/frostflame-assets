@@ -1,368 +1,403 @@
 {
- "version": 1,
- "placeholder": true,
- "note": "AI-generated placeholder clips. Never use as menu dish photos; owner photos/clips always win.",
- "base": "https://raw.githubusercontent.com/karimullashaik0389-cloud/frostflame-assets/main/",
- "hero": {
-  "rotation": [
-   "frost",
-   "flame"
-  ],
-  "clips": {
-   "frost": {
-    "mp4": "scroll/frost-loop.mp4",
-    "poster": "scroll/frost-poster.webp",
-    "poster_mobile": "scroll/frost-poster-mobile.webp"
-   },
-   "flame": {
-    "mp4": "scroll/flame-loop.mp4",
-    "poster": "scroll/flame-poster.webp",
-    "poster_mobile": "scroll/flame-poster-mobile.webp"
-   }
+  "version": 1,
+  "placeholder": true,
+  "note": "AI-generated placeholder clips. Never use as menu dish photos; owner photos/clips always win.",
+  "base": "https://raw.githubusercontent.com/karimullashaik0389-cloud/frostflame-assets/main/",
+  "hero": {
+    "rotation": [
+      "frost",
+      "flame"
+    ],
+    "clips": {
+      "frost": {
+        "mp4": "scroll/frost-loop.mp4",
+        "poster": "scroll/frost-poster.webp",
+        "poster_mobile": "scroll/frost-poster-mobile.webp"
+      },
+      "flame": {
+        "mp4": "scroll/flame-loop.mp4",
+        "poster": "scroll/flame-poster.webp",
+        "poster_mobile": "scroll/flame-poster-mobile.webp"
+      }
+    },
+    "owner_slots": {
+      "owner-lassi-pour": null,
+      "owner-caramel-pour": null
+    }
   },
-  "owner_slots": {
-   "owner-lassi-pour": null,
-   "owner-caramel-pour": null
+  "scroll": {
+    "frost": {
+      "desktop_zip": "scroll/frost-desktop.zip",
+      "desktop_frames": 97,
+      "desktop_width": 1280,
+      "mobile_zip": "scroll/frost-mobile.zip",
+      "mobile_frames": 100,
+      "mobile_width": 720,
+      "frame_name": "%03d.webp",
+      "poster": "scroll/frost-poster.webp",
+      "poster_mobile": "scroll/frost-poster-mobile.webp",
+      "owner_clip": null
+    },
+    "flame": {
+      "desktop_zip": "scroll/flame-desktop.zip",
+      "desktop_frames": 97,
+      "desktop_width": 1280,
+      "mobile_zip": "scroll/flame-mobile.zip",
+      "mobile_frames": 100,
+      "mobile_width": 720,
+      "frame_name": "%03d.webp",
+      "poster": "scroll/flame-poster.webp",
+      "poster_mobile": "scroll/flame-poster-mobile.webp",
+      "owner_clip": null
+    }
+  },
+  "menu_sides": {
+    "frost": {
+      "clip": "scroll/frost-loop.mp4",
+      "poster": "scroll/frost-poster.webp",
+      "owner_clip": null
+    },
+    "flame": {
+      "clip": "scroll/flame-loop.mp4",
+      "poster": "scroll/flame-poster.webp",
+      "owner_clip": null
+    }
+  },
+  "dishes": {
+    "create-your-own-stone": {
+      "poster": "dish/create-your-own-stone/create-your-own-stone-poster.webp",
+      "mp4": "dish/create-your-own-stone/create-your-own-stone-loop.mp4",
+      "frames_zip": "dish/create-your-own-stone/create-your-own-stone-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "signature-stone": {
+      "poster": "dish/signature-stone/signature-stone-poster.webp",
+      "mp4": "dish/signature-stone/signature-stone-loop.mp4",
+      "frames_zip": "dish/signature-stone/signature-stone-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "desi-stone": {
+      "poster": "dish/desi-stone/desi-stone-poster.webp",
+      "mp4": "dish/desi-stone/desi-stone-loop.mp4",
+      "frames_zip": "dish/desi-stone/desi-stone-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "gongura-chicken-pulao": {
+      "poster": "dish/gongura-chicken-pulao/gongura-chicken-pulao-poster.webp",
+      "mp4": "dish/gongura-chicken-pulao/gongura-chicken-pulao-loop.mp4",
+      "frames_zip": "dish/gongura-chicken-pulao/gongura-chicken-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "gongura-mutton-pulao": {
+      "poster": "dish/gongura-mutton-pulao/gongura-mutton-pulao-poster.webp",
+      "mp4": "dish/gongura-mutton-pulao/gongura-mutton-pulao-loop.mp4",
+      "frames_zip": "dish/gongura-mutton-pulao/gongura-mutton-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "masala-chai-stone": {
+      "poster": "dish/masala-chai-stone/masala-chai-stone-poster.webp",
+      "mp4": "dish/masala-chai-stone/masala-chai-stone-loop.mp4",
+      "frames_zip": "dish/masala-chai-stone/masala-chai-stone-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "chilli-mango-stone": {
+      "poster": "dish/chilli-mango-stone/chilli-mango-stone-poster.webp",
+      "mp4": "dish/chilli-mango-stone/chilli-mango-stone-loop.mp4",
+      "frames_zip": "dish/chilli-mango-stone/chilli-mango-stone-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "veg-pulao": {
+      "poster": "dish/veg-pulao/veg-pulao-poster.webp",
+      "mp4": "dish/veg-pulao/veg-pulao-loop.mp4",
+      "frames_zip": "dish/veg-pulao/veg-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "paneer-pulao": {
+      "poster": "dish/paneer-pulao/paneer-pulao-poster.webp",
+      "mp4": "dish/paneer-pulao/paneer-pulao-loop.mp4",
+      "frames_zip": "dish/paneer-pulao/paneer-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chicken-pulao": {
+      "poster": "dish/chicken-pulao/chicken-pulao-poster.webp",
+      "mp4": "dish/chicken-pulao/chicken-pulao-loop.mp4",
+      "frames_zip": "dish/chicken-pulao/chicken-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chicken-65-pulao": {
+      "poster": "dish/chicken-65-pulao/chicken-65-pulao-poster.webp",
+      "mp4": "dish/chicken-65-pulao/chicken-65-pulao-loop.mp4",
+      "frames_zip": "dish/chicken-65-pulao/chicken-65-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "mutton-pulao": {
+      "poster": "dish/mutton-pulao/mutton-pulao-poster.webp",
+      "mp4": "dish/mutton-pulao/mutton-pulao-loop.mp4",
+      "frames_zip": "dish/mutton-pulao/mutton-pulao-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chana-tadka": {
+      "poster": "dish/chana-tadka/chana-tadka-poster.webp",
+      "mp4": "dish/chana-tadka/chana-tadka-loop.mp4",
+      "frames_zip": "dish/chana-tadka/chana-tadka-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chana-masala": {
+      "poster": "dish/chana-masala/chana-masala-poster.webp",
+      "mp4": "dish/chana-masala/chana-masala-loop.mp4",
+      "frames_zip": "dish/chana-masala/chana-masala-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "paneer-butter-masala": {
+      "poster": "dish/paneer-butter-masala/paneer-butter-masala-poster.webp",
+      "mp4": "dish/paneer-butter-masala/paneer-butter-masala-loop.mp4",
+      "frames_zip": "dish/paneer-butter-masala/paneer-butter-masala-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "pani-puri": {
+      "poster": "dish/pani-puri/pani-puri-poster.webp",
+      "mp4": "dish/pani-puri/pani-puri-loop.mp4",
+      "frames_zip": "dish/pani-puri/pani-puri-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "samosa-chaat": {
+      "poster": "dish/samosa-chaat/samosa-chaat-poster.webp",
+      "mp4": "dish/samosa-chaat/samosa-chaat-loop.mp4",
+      "frames_zip": "dish/samosa-chaat/samosa-chaat-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "papdi-chaat": {
+      "poster": "dish/papdi-chaat/papdi-chaat-poster.webp",
+      "mp4": "dish/papdi-chaat/papdi-chaat-loop.mp4",
+      "frames_zip": "dish/papdi-chaat/papdi-chaat-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chicken-65": {
+      "poster": "dish/chicken-65/chicken-65-poster.webp",
+      "mp4": "dish/chicken-65/chicken-65-loop.mp4",
+      "frames_zip": "dish/chicken-65/chicken-65-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "chicken-pakoda": {
+      "poster": "dish/chicken-pakoda/chicken-pakoda-poster.webp",
+      "mp4": "dish/chicken-pakoda/chicken-pakoda-loop.mp4",
+      "frames_zip": "dish/chicken-pakoda/chicken-pakoda-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "masala-fries": {
+      "poster": "dish/masala-fries/masala-fries-poster.webp",
+      "mp4": "dish/masala-fries/masala-fries-loop.mp4",
+      "frames_zip": "dish/masala-fries/masala-fries-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "warm-gulab-jamun": {
+      "poster": "dish/warm-gulab-jamun/warm-gulab-jamun-poster.webp",
+      "mp4": "dish/warm-gulab-jamun/warm-gulab-jamun-loop.mp4",
+      "frames_zip": "dish/warm-gulab-jamun/warm-gulab-jamun-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "gulab-jamun-ice-cream": {
+      "poster": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-poster.webp",
+      "mp4": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-loop.mp4",
+      "frames_zip": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "vanilla-shake": {
+      "poster": "dish/vanilla-shake/vanilla-shake-poster.webp",
+      "mp4": "dish/vanilla-shake/vanilla-shake-loop.mp4",
+      "frames_zip": "dish/vanilla-shake/vanilla-shake-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "chocolate-shake": {
+      "poster": "dish/chocolate-shake/chocolate-shake-poster.webp",
+      "mp4": "dish/chocolate-shake/chocolate-shake-loop.mp4",
+      "frames_zip": "dish/chocolate-shake/chocolate-shake-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "nutella-shake": {
+      "poster": "dish/nutella-shake/nutella-shake-poster.webp",
+      "mp4": "dish/nutella-shake/nutella-shake-loop.mp4",
+      "frames_zip": "dish/nutella-shake/nutella-shake-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "biscoff-shake": {
+      "poster": "dish/biscoff-shake/biscoff-shake-poster.webp",
+      "mp4": "dish/biscoff-shake/biscoff-shake-loop.mp4",
+      "frames_zip": "dish/biscoff-shake/biscoff-shake-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "oreo-shake": {
+      "poster": "dish/oreo-shake/oreo-shake-poster.webp",
+      "mp4": "dish/oreo-shake/oreo-shake-loop.mp4",
+      "frames_zip": "dish/oreo-shake/oreo-shake-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "banana-smoothie": {
+      "poster": "dish/banana-smoothie/banana-smoothie-poster.webp",
+      "mp4": "dish/banana-smoothie/banana-smoothie-loop.mp4",
+      "frames_zip": "dish/banana-smoothie/banana-smoothie-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "avocado-smoothie": {
+      "poster": "dish/avocado-smoothie/avocado-smoothie-poster.webp",
+      "mp4": "dish/avocado-smoothie/avocado-smoothie-loop.mp4",
+      "frames_zip": "dish/avocado-smoothie/avocado-smoothie-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": false
+    },
+    "mango-lassi": {
+      "poster": "dish/mango-lassi/mango-lassi-poster.webp",
+      "mp4": "dish/mango-lassi/mango-lassi-loop.mp4",
+      "frames_zip": "dish/mango-lassi/mango-lassi-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "soft-drink": {
+      "poster": "dish/soft-drink/soft-drink-poster.webp",
+      "mp4": "dish/soft-drink/soft-drink-loop.mp4",
+      "frames_zip": "dish/soft-drink/soft-drink-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "water": {
+      "poster": "dish/water/water-poster.webp",
+      "mp4": "dish/water/water-loop.mp4",
+      "frames_zip": "dish/water/water-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "masala-chai": {
+      "poster": "dish/masala-chai/masala-chai-poster.webp",
+      "mp4": "dish/masala-chai/masala-chai-loop.mp4",
+      "frames_zip": "dish/masala-chai/masala-chai-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "filter-coffee": {
+      "poster": "dish/filter-coffee/filter-coffee-poster.webp",
+      "mp4": "dish/filter-coffee/filter-coffee-loop.mp4",
+      "frames_zip": "dish/filter-coffee/filter-coffee-frames.zip",
+      "frames": 48,
+      "frame_name": "%02d.webp",
+      "owner_clip": null,
+      "hidden": true
+    },
+    "glacier": {
+      "reuse": "signature-stone",
+      "owner_clip": null
+    },
+    "volcano": {
+      "reuse": "chicken-65-pulao",
+      "owner_clip": null
+    },
+    "eclipse": {
+      "reuse": "chicken-pulao",
+      "owner_clip": null
+    },
+    "fire-and-ice-for-two": {
+      "reuse": "chicken-65-pulao",
+      "owner_clip": null
+    },
+    "chaat-and-chai": {
+      "reuse": "samosa-chaat",
+      "owner_clip": null
+    }
   }
- },
- "scroll": {
-  "frost": {
-   "desktop_zip": "scroll/frost-desktop.zip",
-   "desktop_frames": 97,
-   "desktop_width": 1280,
-   "mobile_zip": "scroll/frost-mobile.zip",
-   "mobile_frames": 100,
-   "mobile_width": 720,
-   "frame_name": "%03d.webp",
-   "poster": "scroll/frost-poster.webp",
-   "poster_mobile": "scroll/frost-poster-mobile.webp",
-   "owner_clip": null
-  },
-  "flame": {
-   "desktop_zip": "scroll/flame-desktop.zip",
-   "desktop_frames": 97,
-   "desktop_width": 1280,
-   "mobile_zip": "scroll/flame-mobile.zip",
-   "mobile_frames": 100,
-   "mobile_width": 720,
-   "frame_name": "%03d.webp",
-   "poster": "scroll/flame-poster.webp",
-   "poster_mobile": "scroll/flame-poster-mobile.webp",
-   "owner_clip": null
-  }
- },
- "menu_sides": {
-  "frost": {
-   "clip": "scroll/frost-loop.mp4",
-   "poster": "scroll/frost-poster.webp",
-   "owner_clip": null
-  },
-  "flame": {
-   "clip": "scroll/flame-loop.mp4",
-   "poster": "scroll/flame-poster.webp",
-   "owner_clip": null
-  }
- },
- "dishes": {
-  "create-your-own-stone": {
-   "poster": "dish/create-your-own-stone/create-your-own-stone-poster.webp",
-   "mp4": "dish/create-your-own-stone/create-your-own-stone-loop.mp4",
-   "frames_zip": "dish/create-your-own-stone/create-your-own-stone-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "signature-stone": {
-   "poster": "dish/signature-stone/signature-stone-poster.webp",
-   "mp4": "dish/signature-stone/signature-stone-loop.mp4",
-   "frames_zip": "dish/signature-stone/signature-stone-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "desi-stone": {
-   "poster": "dish/desi-stone/desi-stone-poster.webp",
-   "mp4": "dish/desi-stone/desi-stone-loop.mp4",
-   "frames_zip": "dish/desi-stone/desi-stone-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "gongura-chicken-pulao": {
-   "poster": "dish/gongura-chicken-pulao/gongura-chicken-pulao-poster.webp",
-   "mp4": "dish/gongura-chicken-pulao/gongura-chicken-pulao-loop.mp4",
-   "frames_zip": "dish/gongura-chicken-pulao/gongura-chicken-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "gongura-mutton-pulao": {
-   "poster": "dish/gongura-mutton-pulao/gongura-mutton-pulao-poster.webp",
-   "mp4": "dish/gongura-mutton-pulao/gongura-mutton-pulao-loop.mp4",
-   "frames_zip": "dish/gongura-mutton-pulao/gongura-mutton-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "masala-chai-stone": {
-   "poster": "dish/masala-chai-stone/masala-chai-stone-poster.webp",
-   "mp4": "dish/masala-chai-stone/masala-chai-stone-loop.mp4",
-   "frames_zip": "dish/masala-chai-stone/masala-chai-stone-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chilli-mango-stone": {
-   "poster": "dish/chilli-mango-stone/chilli-mango-stone-poster.webp",
-   "mp4": "dish/chilli-mango-stone/chilli-mango-stone-loop.mp4",
-   "frames_zip": "dish/chilli-mango-stone/chilli-mango-stone-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "veg-pulao": {
-   "poster": "dish/veg-pulao/veg-pulao-poster.webp",
-   "mp4": "dish/veg-pulao/veg-pulao-loop.mp4",
-   "frames_zip": "dish/veg-pulao/veg-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "paneer-pulao": {
-   "poster": "dish/paneer-pulao/paneer-pulao-poster.webp",
-   "mp4": "dish/paneer-pulao/paneer-pulao-loop.mp4",
-   "frames_zip": "dish/paneer-pulao/paneer-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chicken-pulao": {
-   "poster": "dish/chicken-pulao/chicken-pulao-poster.webp",
-   "mp4": "dish/chicken-pulao/chicken-pulao-loop.mp4",
-   "frames_zip": "dish/chicken-pulao/chicken-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chicken-65-pulao": {
-   "poster": "dish/chicken-65-pulao/chicken-65-pulao-poster.webp",
-   "mp4": "dish/chicken-65-pulao/chicken-65-pulao-loop.mp4",
-   "frames_zip": "dish/chicken-65-pulao/chicken-65-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "mutton-pulao": {
-   "poster": "dish/mutton-pulao/mutton-pulao-poster.webp",
-   "mp4": "dish/mutton-pulao/mutton-pulao-loop.mp4",
-   "frames_zip": "dish/mutton-pulao/mutton-pulao-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chana-tadka": {
-   "poster": "dish/chana-tadka/chana-tadka-poster.webp",
-   "mp4": "dish/chana-tadka/chana-tadka-loop.mp4",
-   "frames_zip": "dish/chana-tadka/chana-tadka-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chana-masala": {
-   "poster": "dish/chana-masala/chana-masala-poster.webp",
-   "mp4": "dish/chana-masala/chana-masala-loop.mp4",
-   "frames_zip": "dish/chana-masala/chana-masala-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "paneer-butter-masala": {
-   "poster": "dish/paneer-butter-masala/paneer-butter-masala-poster.webp",
-   "mp4": "dish/paneer-butter-masala/paneer-butter-masala-loop.mp4",
-   "frames_zip": "dish/paneer-butter-masala/paneer-butter-masala-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "pani-puri": {
-   "poster": "dish/pani-puri/pani-puri-poster.webp",
-   "mp4": "dish/pani-puri/pani-puri-loop.mp4",
-   "frames_zip": "dish/pani-puri/pani-puri-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "samosa-chaat": {
-   "poster": "dish/samosa-chaat/samosa-chaat-poster.webp",
-   "mp4": "dish/samosa-chaat/samosa-chaat-loop.mp4",
-   "frames_zip": "dish/samosa-chaat/samosa-chaat-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "papdi-chaat": {
-   "poster": "dish/papdi-chaat/papdi-chaat-poster.webp",
-   "mp4": "dish/papdi-chaat/papdi-chaat-loop.mp4",
-   "frames_zip": "dish/papdi-chaat/papdi-chaat-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chicken-65": {
-   "poster": "dish/chicken-65/chicken-65-poster.webp",
-   "mp4": "dish/chicken-65/chicken-65-loop.mp4",
-   "frames_zip": "dish/chicken-65/chicken-65-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chicken-pakoda": {
-   "poster": "dish/chicken-pakoda/chicken-pakoda-poster.webp",
-   "mp4": "dish/chicken-pakoda/chicken-pakoda-loop.mp4",
-   "frames_zip": "dish/chicken-pakoda/chicken-pakoda-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "masala-fries": {
-   "poster": "dish/masala-fries/masala-fries-poster.webp",
-   "mp4": "dish/masala-fries/masala-fries-loop.mp4",
-   "frames_zip": "dish/masala-fries/masala-fries-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "warm-gulab-jamun": {
-   "poster": "dish/warm-gulab-jamun/warm-gulab-jamun-poster.webp",
-   "mp4": "dish/warm-gulab-jamun/warm-gulab-jamun-loop.mp4",
-   "frames_zip": "dish/warm-gulab-jamun/warm-gulab-jamun-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "gulab-jamun-ice-cream": {
-   "poster": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-poster.webp",
-   "mp4": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-loop.mp4",
-   "frames_zip": "dish/gulab-jamun-ice-cream/gulab-jamun-ice-cream-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "vanilla-shake": {
-   "poster": "dish/vanilla-shake/vanilla-shake-poster.webp",
-   "mp4": "dish/vanilla-shake/vanilla-shake-loop.mp4",
-   "frames_zip": "dish/vanilla-shake/vanilla-shake-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "chocolate-shake": {
-   "poster": "dish/chocolate-shake/chocolate-shake-poster.webp",
-   "mp4": "dish/chocolate-shake/chocolate-shake-loop.mp4",
-   "frames_zip": "dish/chocolate-shake/chocolate-shake-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "nutella-shake": {
-   "poster": "dish/nutella-shake/nutella-shake-poster.webp",
-   "mp4": "dish/nutella-shake/nutella-shake-loop.mp4",
-   "frames_zip": "dish/nutella-shake/nutella-shake-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "biscoff-shake": {
-   "poster": "dish/biscoff-shake/biscoff-shake-poster.webp",
-   "mp4": "dish/biscoff-shake/biscoff-shake-loop.mp4",
-   "frames_zip": "dish/biscoff-shake/biscoff-shake-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "oreo-shake": {
-   "poster": "dish/oreo-shake/oreo-shake-poster.webp",
-   "mp4": "dish/oreo-shake/oreo-shake-loop.mp4",
-   "frames_zip": "dish/oreo-shake/oreo-shake-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "banana-smoothie": {
-   "poster": "dish/banana-smoothie/banana-smoothie-poster.webp",
-   "mp4": "dish/banana-smoothie/banana-smoothie-loop.mp4",
-   "frames_zip": "dish/banana-smoothie/banana-smoothie-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "avocado-smoothie": {
-   "poster": "dish/avocado-smoothie/avocado-smoothie-poster.webp",
-   "mp4": "dish/avocado-smoothie/avocado-smoothie-loop.mp4",
-   "frames_zip": "dish/avocado-smoothie/avocado-smoothie-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "mango-lassi": {
-   "poster": "dish/mango-lassi/mango-lassi-poster.webp",
-   "mp4": "dish/mango-lassi/mango-lassi-loop.mp4",
-   "frames_zip": "dish/mango-lassi/mango-lassi-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "soft-drink": {
-   "poster": "dish/soft-drink/soft-drink-poster.webp",
-   "mp4": "dish/soft-drink/soft-drink-loop.mp4",
-   "frames_zip": "dish/soft-drink/soft-drink-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "water": {
-   "poster": "dish/water/water-poster.webp",
-   "mp4": "dish/water/water-loop.mp4",
-   "frames_zip": "dish/water/water-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "masala-chai": {
-   "poster": "dish/masala-chai/masala-chai-poster.webp",
-   "mp4": "dish/masala-chai/masala-chai-loop.mp4",
-   "frames_zip": "dish/masala-chai/masala-chai-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "filter-coffee": {
-   "poster": "dish/filter-coffee/filter-coffee-poster.webp",
-   "mp4": "dish/filter-coffee/filter-coffee-loop.mp4",
-   "frames_zip": "dish/filter-coffee/filter-coffee-frames.zip",
-   "frames": 48,
-   "frame_name": "%02d.webp",
-   "owner_clip": null
-  },
-  "glacier": {
-   "reuse": "signature-stone",
-   "owner_clip": null
-  },
-  "volcano": {
-   "reuse": "chicken-65-pulao",
-   "owner_clip": null
-  },
-  "eclipse": {
-   "reuse": "chicken-pulao",
-   "owner_clip": null
-  },
-  "fire-and-ice-for-two": {
-   "reuse": "chicken-65-pulao",
-   "owner_clip": null
-  },
-  "chaat-and-chai": {
-   "reuse": "samosa-chaat",
-   "owner_clip": null
-  }
- }
 }
