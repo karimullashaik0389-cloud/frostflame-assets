@@ -134,7 +134,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "paneer-pulao": {
       "poster": "dish/paneer-pulao/paneer-pulao-poster.webp",
@@ -143,7 +143,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "chicken-pulao": {
       "poster": "dish/chicken-pulao/chicken-pulao-poster.webp",
@@ -152,7 +152,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "chicken-65-pulao": {
       "poster": "dish/chicken-65-pulao/chicken-65-pulao-poster.webp",
@@ -224,7 +224,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "chicken-65": {
       "poster": "dish/chicken-65/chicken-65-poster.webp",
@@ -233,7 +233,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "chicken-pakoda": {
       "poster": "dish/chicken-pakoda/chicken-pakoda-poster.webp",
@@ -341,7 +341,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "soft-drink": {
       "poster": "dish/soft-drink/soft-drink-poster.webp",
@@ -368,7 +368,7 @@
       "frames": 48,
       "frame_name": "%02d.webp",
       "owner_clip": null,
-      "hidden": true
+      "hidden": false
     },
     "filter-coffee": {
       "poster": "dish/filter-coffee/filter-coffee-poster.webp",
